@@ -1,0 +1,137 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family:
+    system-ui,
+    -apple-system,
+    sans-serif;
+  line-height: 1.5;
+  color: #1f2937;
+  background-color: #ffffff;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: darkslategray;
+  align-items: center;
+  padding: 10px;
+  color: white;
+}
+
+.header-nav-li {
+  display: inline;
+  padding: 10px;
+}
+.header-nav-li a {
+  text-decoration: none;
+  color: white;
+}
+
+.main {
+  background-color: orange;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 180px;
+  color: white;
+}
+
+.main-text {
+  padding: 5px;
+}
+
+.main-button {
+  display: block;
+  margin: 10px auto;
+  background-color: darkslategray;
+  color: white;
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+  height: 30px;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+}
+
+.section {
+  padding: 15px;
+}
+
+.section-article-aside-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 25px;
+}
+
+.section-article-main {
+  display: flex;
+  padding: 1px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.section-article-aside-product-img {
+  width: 340px;
+}
+
+.section-article-aside-product {
+  border: solid 0.2mm;
+  padding: 15px;
+  margin: 10px;
+}
+
+.section-article-aside-product-name-phone {
+  display: flex;
+  justify-content: center;
+  padding-top: 5px;
+}
+
+.section-article-aside-product-name-price {
+  display: flex;
+  justify-content: center;
+  color: red;
+  font-weight: bold;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.main-button-product {
+  display: block;
+  margin: 1px auto;
+  width: 100px;
+  padding: 3px;
+  border-radius: 5px;
+  background-color: red;
+  color: white;
+  border: none;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  background-color: darkslategray;
+  padding: 15px;
+  color: white;
+}
+
+.section-article-aside-new {
+  position: relative;
+}
+
+.section-article-aside-product-new {
+  position: absolute;
+  top: 0;
+  background-color: green;
+  padding: 0px 7px;
+  color: white;
+  margin: 17px;
+}
